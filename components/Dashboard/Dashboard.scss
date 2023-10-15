@@ -1,0 +1,26 @@
+
+@import '~bootstrap/scss/variables';
+
+
+.user-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.user-card {
+  max-width: 18rem;
+  margin: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  padding: 1rem;
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  button {
+    margin-top: 1rem;
+  }
+}
